@@ -5,6 +5,12 @@ Advanced protoboard layout with 1.27mm pitch for smd parts
 
 ![40x60](photos/40x60.png)
 
+Fork notes (Chrismettal)
+-------------
+- Two designs have been added, `protoboard-40x60mm` and `protoboard-40x60mm-gndplane`, providing mounting holes to the existing designs and fitting them to a small 40x60mm formfactor.
+- While the advanced SMD footprint works great, the Gndplane footprint sometimes gets bridged by HASL from the factory, depending on the manufacturers tolerances.
+- A new design with just the gndplane feature but without the advanced SMD pads on the front is being created to test through hole protoboards with the gndplane rings. During this, the tolerances of said ring are widened up for lower quality HASL without bridging. This new footprint also uses bigger contacts on the front to make up for the missing SMD pads and align it closer to regular protoboards.
+
 Main Features
 -------------
 
